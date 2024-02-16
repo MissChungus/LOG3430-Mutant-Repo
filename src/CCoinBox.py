@@ -1,7 +1,7 @@
 class CCoinBox:
     monnaie_totale = 0
     monnaie_courante = 0
-    vente_permise = False
+    vente_permise = True
 
     def __init__(self):
         self.reset()
